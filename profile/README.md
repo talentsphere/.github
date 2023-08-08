@@ -1,5 +1,6 @@
 ## /login
 Kullanıcı kendi bilgileriyle sisteme giriş yapabilir. Email ve password kısmını doldurduktan sonra "Login" butonu aktifleşir. Email'in doğruluğu için Regular Expression kullanılmıştır. RegExp testini geçtiğinde buton aktifleşir.
+> _/api/login_ endpoint'ini kullanarak sisteme giriş yapar.
 
 ![image](https://github.com/talentsphere/.github-private/assets/79156797/cc8bb116-98d8-4a32-8ca2-11404f851f5f)
 
@@ -12,7 +13,7 @@ Kullanıcı _/login_ ekranından **"Forgot Password?"**'e tıklarsa /forgot-pass
 ---
 ## /verify-email
 Şifre değiştirme akışının 2. adımı olan bu aşamada, kullanıcı mail'ine gönderilen kodu burada girer ve mail'ini doğrular. Butonun aktif olması için 6 haneli kod girilmesi gerekiyor. 6 karakterden fazla yazılamıyor.
-
+> _/api/sendMail_ endpoint'i ile entegrasyonu yapılacaktır.
 ![image](https://github.com/talentsphere/.github-private/assets/79156797/37cf68b0-649a-4f6a-85f9-3b966b84342d)
 
 ---
